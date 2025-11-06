@@ -10,8 +10,13 @@ public class Main {
         Scanner sc2 = new Scanner(System.in);
         double weight = sc2.nextDouble();
         System.out.println("Du er " + height + "cm " + "Og du vejer " + weight + "kg" + " og dit bmi er " + Bmi.getBmi(height,weight));
+        if(Bmi.getBmi(weight, height) <= 20){
+            System.out.println("Du er sej");
+        }else{ System.out.println("Du er tyk");
+            }
+        }
     }
 
 
-    }
+
 
