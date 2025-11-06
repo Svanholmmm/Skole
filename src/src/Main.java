@@ -3,7 +3,10 @@ public class Main {
         System.out.println("Hello, World!");
         double height = 190.0;
         double weight = 90.0;
-        double bmi = weight / (height * height);
+        double bmi = Bmi.getBmi(weight, height);
         System.out.println(bmi);
     }
-}
+
+
+    }
+
